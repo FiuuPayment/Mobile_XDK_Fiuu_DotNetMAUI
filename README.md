@@ -194,9 +194,9 @@ paymentDetails.Add(FiuuActivity.mp_disabled_channels, disabledChannels);
 ## Start the payment module
 
 ```
-Intent intent = new Intent(this, typeof(MOLPayActivity));
-intent.PutExtra(MOLPayActivity.MOLPayPaymentDetails, JsonConvert.SerializeObject(paymentDetails));
-StartActivityForResult(intent, MOLPayActivity.MOLPayXDK);
+Intent intent = new Intent(this, typeof(FiuuActivity));
+intent.PutExtra(FiuuActivity.FiuuPaymentDetails, JsonConvert.SerializeObject(paymentDetails));
+StartActivityForResult(intent, FiuuActivity.FiuuXDK);
 
 ```
 
