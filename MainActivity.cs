@@ -47,6 +47,7 @@ namespace MainActivity
             paymentDetails.Add(FiuuActivity.mp_bill_mobile, "+60123456789");
             paymentDetails.Add(FiuuActivity.mp_channel_editing, false);
             paymentDetails.Add(FiuuActivity.mp_editing_enabled, false);
+            paymentDetails.Add(FiuuActivity.mp_dev_mode, false);
 
             Intent intent = new Intent(this, typeof(FiuuActivity));
             intent.PutExtra(FiuuActivity.FiuuPaymentDetails, JsonConvert.SerializeObject(paymentDetails));
