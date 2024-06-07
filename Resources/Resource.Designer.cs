@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("MOLPayXDKExample.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("FiuuXDKExample.Resource", IsApplication=true)]
 
-namespace MOLPayXDKExample
+namespace FiuuXDKExample
 {
 	
 	
@@ -69,7 +69,7 @@ namespace MOLPayXDKExample
 			public const int MPMainUI = 2130837506;
 			
 			// aapt resource value: 0x7F020001
-			public const int MPMOLPayUI = 2130837505;
+			public const int FiuuUI = 2130837505;
 			
 			// aapt resource value: 0x7F020004
 			public const int resultTV = 2130837508;
@@ -88,7 +88,7 @@ namespace MOLPayXDKExample
 		{
 			
 			// aapt resource value: 0x7F030000
-			public const int layout_molpay = 2130903040;
+			public const int layout_fiuu = 2130903040;
 			
 			static Layout()
 			{
@@ -104,7 +104,7 @@ namespace MOLPayXDKExample
 		{
 			
 			// aapt resource value: 0x7F040000
-			public const int menu_molpay = 2130968576;
+			public const int menu_fiuu = 2130968576;
 			
 			static Menu()
 			{
